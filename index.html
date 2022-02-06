@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+    <script>
+      // Import the functions you need from the SDKs you need
+      //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBEiQLs3uvd8mduw_fp6tWV1LPwKVZJLas",
+        authDomain: "ball-sync-4042d.firebaseapp.com",
+        databaseURL: "https://ball-sync-4042d-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "ball-sync-4042d",
+        storageBucket: "ball-sync-4042d.appspot.com",
+        messagingSenderId: "11606863108",
+        appId: "1:11606863108:web:9ebe56959e289d09a93451"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig)
+      //const app = initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
